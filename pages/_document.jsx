@@ -36,6 +36,7 @@ class MyDocument extends Document {
             content="Pogo OS"
           />
           <meta name="theme-color" content="#6108dd" />
+          <meta name="google-adsense-account" content="ca-pub-8516954719707875" />
           <link rel="icon" href="/img/logo.jpg" type="image/x-icon" />
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
@@ -46,7 +47,6 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="stylesheet" href="/css/nprogress.css" />
-          <meta name="google-adsense-account" content="ca-pub-8516954719707875">
         </Head>
         <body>
           <Main />
