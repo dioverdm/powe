@@ -55,7 +55,7 @@ export default function AwardApp({ Component, pageProps }) {
     },
     {
       link: true,
-      name: "Partners",
+      name: "Socios",
       icon: "fal fa-handshake",
       activeIcon: "fa fa-handshake",
       href: "/partners",
@@ -71,7 +71,7 @@ export default function AwardApp({ Component, pageProps }) {
       />
       <Head>
         <title>
-          Pogo OS
+          Pogo OS | Bot Multipropósito de Discord
         </title>
       </Head>
       <main className="transition-all duration-200 z-10 absolute inset-0 px-5 h-screen max-w-7xl w-full mx-auto">
