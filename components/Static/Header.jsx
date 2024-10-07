@@ -109,20 +109,6 @@ const Header = ({ $, NavItems }) => {
                         </ul>
                     </div>
                     <div className="flex items-center space-x-2 relative">
-                        <button
-                            onClick={() => setOpen(!open)}
-                            className="
-                                bg-transparent
-                                py-2
-                                px-3
-                                text-white
-                                rounded-md
-                                text-center
-                                lg:hidden
-                                hover:bg-amber-400 hover:bg-opacity-20
-                        ">
-                            <i className={`fa ${open ? 'fa-times' : 'fa-bars'} text-lg`} />
-                        </button>
                         <Menu as="div" className="relative text-left">
                             <div>
                                 <Menu.Button>
@@ -166,11 +152,25 @@ const Header = ({ $, NavItems }) => {
                                 </Menu.Items>
                             </Transition>
                         </Menu>
-                        <Link href="https://bit.ly/3PHDjyC">
+                        <Link href="https://discord.com/oauth2/authorize?client_id=814494780251045928">
                             <a className="w-auto flex items-center justify-center shadow-lg gap-x-2 shadow-amber-600/20 rounded-xl py-2.5 font-medium px-7 bg-gradient-to-tl from-amber-500 to-amber-700 text-white  hover:opacity-80 transition duration-200">
-                               Invite
+                               Invitar
                             </a>
-               </Link>
+                        </Link>
+                        <button
+                            onClick={() => setOpen(!open)}
+                            className="
+                                bg-transparent
+                                py-2
+                                px-3
+                                text-white
+                                rounded-md
+                                text-center
+                                lg:hidden
+                                hover:bg-amber-400 hover:bg-opacity-20
+                        ">
+                            <i className={`fa ${open ? 'fa-times' : 'fa-bars'} text-lg`} />
+                        </button>
                     </div>
                 </div>
             </header>
