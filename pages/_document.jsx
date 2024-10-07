@@ -47,6 +47,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="stylesheet" href="/css/nprogress.css" />
+          
         </Head>
         <body>
           <Main />
