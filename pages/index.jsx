@@ -27,9 +27,9 @@ export default function Index() {
               </a>
             </Link>
   <div className="py-10"></div>
-  <Link href={"https://bit.ly/3LYzaDe"}>
+  <Link href={"https://top.gg/bot/814494780251045928/vote"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Vote Astra</a>
+Votar</a>
   </Link>
         </div>
 
@@ -45,10 +45,10 @@ Vote Astra</a>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-y-0 lg:gap-x-12 py-24">
           <div className="col-span-4">
-            <p className="text-white text-4xl font-bold" dangerouslySetInnerHTML={{ __html:"Astra Bot" }} />
-            <p className="text-white text-md font-medium text-gray-500/75" dangerouslySetInnerHTML={{ __html: "How about creating the best environment to relax yourself with your own emotions?" }}/>
-            <a href="https://bit.ly/3PHDjyC" className={"mt-10 flex items-center px-4 justify-center gap-x-2 shadow-lg shadow-amber-600/20 cursor-pointer rounded-xl py-4 font-medium bg-gradient-to-r from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white"}>
-              <i className="fab fa-discord mr-2" />Invite Astra
+            <p className="text-white text-4xl font-bold" dangerouslySetInnerHTML={{ __html:"¿Porqué Pogo OS?" }} />
+            <p className="text-white text-md font-medium text-gray-500/75" dangerouslySetInnerHTML={{ __html: "Pogo OS te ofrece múltiples funciones totalmente gratis y con un 99,99% de estabilidad en todos sus servicios." }}/>
+            <a href="https://discord.com/oauth2/authorize?client_id=814494780251045928" className={"mt-10 flex items-center px-4 justify-center gap-x-2 shadow-lg shadow-amber-600/20 cursor-pointer rounded-xl py-4 font-medium bg-gradient-to-r from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white"}>
+              <i className="fab fa-discord mr-2" />Invítame
             </a>
           </div>
 
@@ -56,26 +56,26 @@ Vote Astra</a>
            
               <div>
                 <div className="text-white">
-                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-cogs text-2xl text-amber-500`} /> Optimization</p>
-                  <p className="text-gray-500 line-clamp-4">With fast and customizable settings specific to your server, Astra gives you a musical pleasure to the fullest.</p>
+                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-cogs text-2xl text-amber-500`} /> Optimizado</p>
+                  <p className="text-gray-500 line-clamp-4">Mis desarrolladores se han enfocado en que mi sistema sea óptimo y fluido, por lo que es poco probable fallas en mis servicios.</p>
                 </div>
               </div>
               <div>
                 <div className="text-white">
                   <p className="text-xl font-semibold mt-5"><i className={`fa fa-universal-access text-2xl text-amber-500`} /> Universal</p>
-                  <p className="text-gray-500 line-clamp-4">A bot that supports multi-platform music playback. (Spotify, Souncloud, YouTube) | (It is a bot that complies with all copyrights and licenses.)</p>
+                  <p className="text-gray-500 line-clamp-4">Soy un bot con múltiples características que serán de gran utilidad para tu servidor.</p>
                 </div>
               </div>
               <div>
                 <div className="text-white">
-                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-shield text-2xl text-amber-500`} /> Security</p>
-                  <p className="text-gray-500 line-clamp-4">An open source safe bot that you can browse and help us develop.</p>
+                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-shield text-2xl text-amber-500`} /> Seguro</p>
+                  <p className="text-gray-500 line-clamp-4">Con Pogo OS puedes estar tranquilo ya que es una de las aplicaciones de Discord mas seguras y capaz de evitar el spam en tus comunidades.</p>
                 </div>
               </div>
               <div>
                 <div className="text-white">
-                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-ticket text-2xl text-amber-500`} /> Support</p>
-                  <p className="text-gray-500 line-clamp-4">With our best teammates, we provide the fastest response to anyone who needs help.</p>
+                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-ticket text-2xl text-amber-500`} /> Soporte</p>
+                  <p className="text-gray-500 line-clamp-4">Mi equipo de soporte siempre estan atentos a atender cualquier duda o problema de mis usuarios, solo debes unirte a mi comunidad, pedir ayuda y seras atendido.</p>
                 </div>
               </div>
           </div>
@@ -87,8 +87,8 @@ Vote Astra</a>
               <>
                 <div className="lg:mx-4 lg:p-8 py-4 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none">
                   <img src="https://cdn.discordapp.com/attachments/737348411568685066/983094813115170866/unknown.png"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
-                  <p className="text-3xl text-white font-semibold">Best Your Bot</p>
-                  <p className="text-md text-white font-medium text-gray-500 line-clamp-5">Are you ready to throw the best parties with Astra, the best and most up-to-date bot?</p>
+                  <p className="text-3xl text-white font-semibold">¿Estás Listo?</p>
+                  <p className="text-md text-white font-medium text-gray-500 line-clamp-5">Si estas listo para empezar a usar a Pogo OS entonces no esperes mas e invitalo.</p>
                 </div>
                 <img src="https://cdn.discordapp.com/attachments/737348411568685066/983094813115170866/unknown.png" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" />
               </>
