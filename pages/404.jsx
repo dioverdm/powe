@@ -1,12 +1,12 @@
 import ErrorPage from '../components/ErrorPage';
 const UnkownPage = () => {
     let messages = [
-        'Have you lost your way, kiddo?',
-        'Damn it! This dead-end road.',
-        'The Aurors blocked this road, Harry!'
+        '¿Te has perdido, chico?',
+        '¡Rayos! Este camino sin salida.',
+        '¡Los Aurores bloquearon este camino, Harry!'
     ];
 
-    return <ErrorPage code={404} message={messages[Math.floor(Math.random()*messages.length)] || "Page not found."} />
+    return <ErrorPage code={404} message={messages[Math.floor(Math.random()*messages.length)] || "Página no encontrada."} />
 }
 
 export default UnkownPage;
