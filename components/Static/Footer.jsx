@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="lg:grid lg:grid-cols-6 gap-20">
                         <div className="col-span-3">
                             <div className="flex items-center space-x-5">
-                                <img src="/img/logo.png" className="rounded-full w-12" />
+                                <img src="http://linda.hidencloud.com:25779/general/logo.png" className="rounded-full w-12" />
                                 <p className="font-semibold text-xl text-white">Pogo OS</p>
                             </div>
                             <Menu as="div" className="relative mt-3 inline-block text-left">
@@ -47,7 +47,7 @@ export default function Footer() {
                                 </Link>
                             </div>
                             <div>
-                                <a href="https://discord.gg/SqS7zQgAdP" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                <a href="https://discord.gg/KsmhWnz33G" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     Servidor de Soporte
                                 </a>
                             </div>
@@ -60,7 +60,7 @@ export default function Footer() {
                         <div className="col-span-1">
                             <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Redes Sociales</p>
                             <div>
-                                <Link href="https://discord.gg/SqS7zQgAdP">
+                                <Link href="https://discord.gg/KsmhWnz33G">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     <i className={`fa-brands fa-discord`} /> Disocrd 
                                     </a>
@@ -77,6 +77,20 @@ export default function Footer() {
                                 <Link href="https://youtube.com/@pogoos">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     <i className={`fa-brands fa-youtube`} /> YouTube 
+                                    </a>
+                                </Link>
+                            </div>
+                            <div>
+                                <Link href="https://instagram.com/pogo_os">
+                                    <a className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                    <i className={`fa-brands fa-instagram`} /> Instagram
+                                    </a>
+                                </Link>
+                            </div>
+                            <div>
+                                <Link href="https://tiktok.com/@pogo_os">
+                                    <a className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                    <i className={`fa-brands fa-tiktok`} /> TikTok 
                                     </a>
                                 </Link>
                             </div>
