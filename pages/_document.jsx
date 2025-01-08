@@ -11,12 +11,12 @@ class MyDocument extends Document {
           <meta name="googlebot" content="index,follow" />
           <meta
             name="description"
-            content="How about listening to music without pausing? Create your own playlists with 750+ supported sound platforms and start listening."
+            content="Pogo OS es un bot de Discord completo, fácil de usar, en el que confían millones de servidores de Discord de todo el mundo para gestionar, entretener y hacer crecer tu comunidad."
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@pogo_os" />
           <meta name="twitter:creator" content="@pogo_os" />
-          <meta property="og:url" content="https://pogoos.com" />
+          <meta property="og:url" content="https://www.pogoos.com" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Pogo OS | Discord Bot Multipropósitos" />
           <link
@@ -26,7 +26,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="How about listening to music without pausing? Create your own playlists with 750+ supported sound platforms and start listening."
+            content="Pogo OS es un bot de Discord completo, fácil de usar, en el que confían millones de servidores de Discord de todo el mundo para gestionar, entretener y hacer crecer tu comunidad."
           />
           <meta property="og:image" content="/img/logo.jpg" />
           <meta property="og:image:alt" content="Pogo OS" />
