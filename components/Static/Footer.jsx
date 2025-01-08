@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="lg:grid lg:grid-cols-6 gap-20">
                         <div className="col-span-3">
                             <div className="flex items-center space-x-5">
-                                <img src="http://linda.hidencloud.com:25779/general/logo.png" className="rounded-full w-12" />
+                                <img src="/img/logo.png" className="rounded-full w-12" />
                                 <p className="font-semibold text-xl text-white">Pogo OS</p>
                             </div>
                             <Menu as="div" className="relative mt-3 inline-block text-left">
@@ -94,6 +94,13 @@ export default function Footer() {
                                     </a>
                                 </Link>
                             </div>
+                            <div>
+                                <Link href="https://x.com/@pogo_os">
+                                    <a className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                    <i className={`fa-brands fa-x-twitter`} /> X 
+                                    </a>
+                                </Link>
+                            </div>
                         </div>
                         <div className="col-span-1">
                             <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Importante</p>
@@ -108,13 +115,6 @@ export default function Footer() {
                                 <Link href="/privacy">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                                         Políticas de Privacidad
-                                    </a>
-                                </Link>
-                            </div>
-                            <div>
-                                <Link href="https://x.com/@pogo_os">
-                                    <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    <i className={`fa-brands fa-x-twitter`} /> X 
                                     </a>
                                 </Link>
                             </div>
