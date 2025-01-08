@@ -111,6 +111,13 @@ export default function Footer() {
                                     </a>
                                 </Link>
                             </div>
+                            <div>
+                                <Link href="https://x.com/@pogo_os">
+                                    <a className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                    <i className={`fa-brands fa-x-twitter`} /> YouTube 
+                                    </a>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                     <div className="mt-10 grid content-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
