@@ -369,15 +369,16 @@ export default function Index() {
           </div>
         </div>
 
-        {/* Sección de Imagen de ejemplo */}
-        <div className="flex flex-row w-full h-auto lg:h-56 my-14 lg:my-40 bg-gradient-to-br from-neutral-900/90 flex items-center justify-start to-neutral-900/50 rounded-lg p-1 shadow-md">
-          <div className="lg:mx-4 lg:p-8 py-4 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none">
-            <img src="/img/20240620_231320.jpg" alt="Pogo OS" width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
-            <h2 className="text-3xl text-white font-semibold">¿Estás Listo?</h2>
-            <p className="text-md text-white font-medium text-gray-500 line-clamp-5">Si estas listo para empezar a usar a Pogo OS entonces no esperes más e invítalo.</p>
-          </div>
-          <img src="/img/20240620_231320.jpg" alt="Pogo OS" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" width="600" height="600" />
+              {/* Sección de Imagen de ejemplo */}
+      <div className="flex flex-row w-full h-auto lg:h-56 my-14 lg:my-40 bg-gradient-to-br from-neutral-900/90 flex items-center justify-start to-neutral-900/50 rounded-lg p-1 shadow-md">
+        <div className="lg:mx-4 lg:p-8 py-4 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none">
+          <img src="/img/20240620_231320.jpg" alt="Pogo OS" width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
+          <h2 className="text-3xl text-white font-semibold">¿Estás Listo?</h2>
+          <p className="text-md text-white font-medium text-gray-500 line-clamp-5">Si estas listo para empezar a usar a Pogo OS entonces no esperes más e invítalo.</p>
         </div>
-      </>
-  );
+        <img src="/img/20240620_231320.jpg" alt="Pogo OS" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" width="600" height="600" />
+      </div>
+    </div> {/* Este es el cierre que faltaba */}
+  </>
+);
 }
