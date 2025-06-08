@@ -89,10 +89,10 @@ export default function App() {
               {dropdowns.language && (
                 <div className="absolute right-0 mt-2 w-40 bg-[#1a1a1f] rounded-lg shadow-xl border border-[rgba(255,255,255,0.05)] p-2 animate-fadeIn z-50">
                   <a href="#" className="flex items-center gap-2 px-4 py-2 hover:bg-[#2a2a30] rounded-lg">
-                    <img src="https://placehold.co/20x20" style={{width: '20px'}} alt="ES" /> Español
+                    <img src="https://flagcdn.com/16x12/ve.png" style={{width: '20px'}} alt="ES" /> Español
                   </a>
                   <a href="#" className="flex items-center gap-2 px-4 py-2 hover:bg-[#2a2a30] rounded-lg">
-                    <img src="https://placehold.co/20x20" style={{width: '20px'}} alt="EN" /> English
+                    <img src="https://flagcdn.com/16x12/us.png" style={{width: '20px'}} alt="EN" /> English
                   </a>
                 </div>
               )}
