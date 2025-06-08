@@ -103,7 +103,7 @@ export default function App() {
             </button>
             
             <label className="burger-3 cursor-pointer md:hidden">
-              <input className="Hidden" type="checkbox" checked={mobileMenuOpen} onChange={() => setMobileMenuOpen(!mobileMenuOpen)} />
+              <input className="hidden" type="checkbox" checked={mobileMenuOpen} onChange={() => setMobileMenuOpen(!mobileMenuOpen)} />
               <i class="fa-solid fa-bars-staggered"></i>
             </label>
             
@@ -135,7 +135,7 @@ export default function App() {
 
         {/* Mobile menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden bg-[#1a1a1f] px-4 pb-4 animate-slideDown">
+          <div className="md:hidden bg-[#1a1a1f] px-4 pb-4 animate-slideDown animate-fadeIn">
             <nav className="flex flex-col gap-3 pt-2">
               <a href="#" className="py-2 hover:text-[#4F4CE5] transition-colors">Comandos</a>
               
