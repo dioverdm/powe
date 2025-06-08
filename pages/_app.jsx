@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+ohimport React, { useState } from 'react';
 import "tailwindcss/tailwind.css";
 import Head from "next/head";
 
@@ -80,7 +80,7 @@ export default function App() {
                 onClick={() => toggleDropdown('language')}
                 className="flex items-center gap-1 px-3 py-1.5 rounded-lg bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.1)] transition-colors"
               >
-                <img src="https://placehold.co/20x20" style={{width: '20px', height: 'auto'}} alt="ES" />
+                <img src="https://flagcdn.com/16x12/ve.png" style={{width: '20px', height: 'auto'}} alt="ES" />
                 ES
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="transition-transform duration-300 group-hover:rotate-180">
                   <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
