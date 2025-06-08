@@ -1,4 +1,4 @@
-ohimport React, { useState } from 'react';
+import React, { useState } from 'react';
 import "tailwindcss/tailwind.css";
 import Head from "next/head";
 
