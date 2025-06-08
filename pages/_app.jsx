@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "tailwindcss/tailwind.css";
+import Head from "next/head";
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
