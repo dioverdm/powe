@@ -31,7 +31,7 @@ export default function App() {
       <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#101017]/80 border-b border-[rgba(255,255,255,0.05)]">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <div className="flex items-center gap-4">
-            <img src="https://placehold.co/40x40" alt="Logo" className="w-10 h-10 rounded-full object-cover" />
+            <img src="/img/logo.png" alt="Logo" className="w-10 h-10 rounded-full object-cover" />
             <nav className="hidden md:flex items-center gap-6">
               <a href="#" className="hover:text-[#4F4CE5] transition-colors">Comandos</a>
               <div className="relative group">
