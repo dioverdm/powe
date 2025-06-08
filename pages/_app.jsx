@@ -99,7 +99,7 @@ export default function App() {
             </div>
             
             <button className="p-2 rounded-lg bg-[rgba(255,198,0,0.1)] hover:bg-[rgba(255,198,0,0.2)] transition-colors">
-              <img src="https://placehold.co/20x20" style={{width: '20px', height: '20px'}} alt="Crown" />
+              <i class="fa-solid fa-crown" style={{width: '20px', height: '20px'}}></i>
             </button>
             
             <label className="burger-3 cursor-pointer md:hidden">
