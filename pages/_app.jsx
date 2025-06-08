@@ -137,7 +137,7 @@ export default function App() {
         {mobileMenuOpen && (
           <div className="md:hidden bg-[#1a1a1f] px-4 pb-4 animate-slideDown animate-fadeIn">
             <nav className="flex flex-col gap-3 pt-2">
-              <a href="#" className="py-2 hover:text-[#4F4CE5] transition-colors">Comandos</a>
+              <a href="/commands" className="py-2 hover:text-[#4F4CE5] transition-colors">Comandos</a>
               
               <div className="flex flex-col gap-2">
                 <button 
@@ -150,7 +150,7 @@ export default function App() {
                   </svg>
                 </button>
                 {dropdowns.modules && (
-                  <div className="pl-4 flex flex-col gap-2">
+                  <div className="pl-4 flex flex-col gap-2 animate-fadeIn">
                     <a href="#" className="hover:text-[#4F4CE5] transition-colors">Módulo 1</a>
                     <a href="#" className="hover:text-[#4F4CE5] transition-colors">Módulo 2</a>
                     <a href="#" className="hover:text-[#4F4CE5] transition-colors">Módulo 3</a>
@@ -169,7 +169,7 @@ export default function App() {
                   </svg>
                 </button>
                 {dropdowns.resources && (
-                  <div className="pl-4 flex flex-col gap-2">
+                  <div className="pl-4 flex flex-col gap-2 animate-fadeIn">
                     <a href="#" className="hover:text-[#4F4CE5] transition-colors">Recurso 1</a>
                     <a href="#" className="hover:text-[#4F4CE5] transition-colors">Recurso 2</a>
                     <a href="#" className="hover:text-[#4F4CE5] transition-colors">Recurso 3</a>
